@@ -1,0 +1,31 @@
+a{
+    color: #DC4A47;
+    text-decoration: none;
+    &:hover{
+        color: #6B1411;
+        text-decoration: underline;
+    }
+}
+.social_icons a{
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: none;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+    img{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+}
+.sub{
+    color: #D7CCB6;
+    background-color: #9A1C1A;
+
+    &:hover{
+        background-color: #D7CCB6;
+    }
+}

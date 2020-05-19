@@ -1,0 +1,29 @@
+
+@media (min-width: 992px){
+    body{
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+
+}
+@media (min-width: 768px){
+    .resume_section{
+        min-height: 100vh;
+    }
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    display: block;
+}
+.p-0 {
+    padding: 0!important;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

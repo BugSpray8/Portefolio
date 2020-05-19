@@ -1,0 +1,16 @@
+.list-inline{
+    display: block;
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+    img{
+        height: 3rem;
+        width: 3rem;
+    }
+}
+.workflow{
+    li{
+        list-style-type: "\1F44D"; // thumbs up sign
+    }
+}

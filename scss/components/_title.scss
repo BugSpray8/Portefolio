@@ -1,0 +1,31 @@
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+}
+
+.title{
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    color: #1B2032;
+    &__primary{
+        color: #DC4A47;
+    }
+}
+.subhead{
+    font-family: 'Abel', sans-serif;
+    color: #D7CCB6;
+    font-size: 1.5rem;
+
+    &__sub{
+        color:  #DC4A47;
+        font-size: 1rem;
+    }
+}

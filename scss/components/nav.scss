@@ -1,0 +1,43 @@
+.nav_color{
+    background-color: #BA2E23;
+    color: white
+}
+.img_border{
+    border: 0.1rem solid white;
+}
+@media (min-width: 992px){
+    .nav_position{
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh;
+    
+    }
+    .nav_pic{
+        display: flex;
+        margin: 0 auto auto;
+        padding: 0.5rem;
+    }
+    .img_border{
+        width: 5em;
+        height: 5em;
+        border: 0.1rem solid white;
+        display: block!important;
+    }
+    .nav_items{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column!important;
+        width: 100%;
+        text-align: center;
+        margin: auto 2 auto;
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+
+}
